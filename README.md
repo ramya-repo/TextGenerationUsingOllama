@@ -1,5 +1,5 @@
 # TextGenerationUsingOllama
 
-##Setting Up Your Environment
+## Setting Up Your Environment
 
 
