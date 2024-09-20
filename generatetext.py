@@ -1,4 +1,4 @@
-#this is a sample notes. can be replaced to actual content.
+#this is a sample notes. can be replaced to actual content or changed to input parameter as per requirement
 meeting_notes = """
 Meeting Notes
 
