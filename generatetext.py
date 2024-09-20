@@ -1,4 +1,3 @@
-#this is a sample notes. can be replaced to actual content.
 import requests
 import json
 
