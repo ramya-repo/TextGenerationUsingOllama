@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Generate Functional Specifications</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Notes Summarizer</title>
 </head>
 <body>
-    <h1>Generate Functional Specifications</h1>
-    <form action="/generate" method="post">
-        <textarea name="input_text" rows="10" cols="50" placeholder="Enter meeting summary here..."></textarea><br>
-        <input type="submit" value="Generate">
+    <h1>Meeting Notes Summarizer</h1>
+    <form action="/summarize" method="post">
+        <textarea name="notes" rows="10" cols="50"></textarea><br>
+        <button type="submit">Summarize</button>
     </form>
+    {% if summary %}
+        <h2>Summary:</h2>
+        <p>{{ summary }}</p>
+    {% endif %}
 </body>
 </html>
